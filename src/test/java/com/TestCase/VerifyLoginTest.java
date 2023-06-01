@@ -18,6 +18,7 @@ public class VerifyLoginTest extends TestBase
         logger.info("Password entered successfully");
         login.clickSubmit();
         logger.info("submit successfully");
+        logger.info("login test sucessfully");
 
 
        // AddNewCustomer add = new AddNewCustomer(driver);
