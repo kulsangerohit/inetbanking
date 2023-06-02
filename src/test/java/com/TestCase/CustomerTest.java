@@ -39,7 +39,7 @@ public class CustomerTest extends TestBase {
         ac.customerSubmit();
 
         String AcutalTitle = driver.getTitle();
-        Assert.assertEquals(AcutalTitle, "");
+        Assert.assertEquals(AcutalTitle, "Guru99 Bank Customer Registration Page");
 
 
     }
